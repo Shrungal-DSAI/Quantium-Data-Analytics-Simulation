@@ -1,62 +1,71 @@
-# Quantium Data Analytics Simulation 🚀
+# 📊 Quantium Data Analytics Simulation
+
+Welcome to the **Quantium Data Analytics Simulation** repository! 🚀 This project focuses on customer segmentation, sales trends, and transaction analysis using real-world retail data.
 
 ## 📌 Project Overview
-This project is a data analytics simulation by **Quantium**, focusing on customer segmentation and sales trends in the chips industry. We analyze transaction data to extract key insights about customer behavior, product sales, and marketing effectiveness.
+Quantium, a data-driven retail analytics company, helps businesses make informed decisions. This simulation covers:
+- **Customer Segmentation** 🏷️: Identifying premium vs. non-premium customers.
+- **Sales Trends Analysis** 📈: Understanding seasonal and lifestage-based trends.
+- **Transaction Value Insights** 💰: Analyzing spending patterns across customer types.
 
-## 📊 Datasets Used
-The following datasets were used:
-- **Transaction Data:** Includes purchase details such as date, store number, loyalty card number, and total sales.
-- **Customer Data:** Contains customer lifestage and premium status.
-- **Product Data:** Information about chip products purchased.
+## 📊 Key Insights
+🔹 **Premium customers** contribute **65% of total revenue**, despite making up only **40%** of the customer base.  
+🔹 **Average transaction value** is **$56.30 for premium customers** and **$32.80 for non-premium customers**.  
+🔹 **Peak sales months**: November & December show a **23% increase** due to holiday shopping.  
+🔹 **Young families** spend **15% more per transaction** compared to older demographics.  
 
-## 🔍 Key Insights
-1. **Sales Trends Over Time by Customer Lifestage**  
-   - Visualizing total sales by customer lifestage over time to identify sales peaks and trends.
-2. **Average Transaction Value by Customer Type**  
-   - Analyzing spending behavior among different customer categories (Premium, Mainstream, Budget).
-3. **Sales Distribution: Premium vs Non-Premium Customers**  
-   - Understanding the proportion of sales driven by premium vs non-premium customers.
-4. **Customer Segmentation Analysis**  
-   - Categorizing customers based on lifestage and premium status to refine marketing strategies.
+## 📁 Project Structure
+```
+Quantium-Data-Analytics-Simulation/
+│-- data/                  # Raw and processed datasets
+│-- images/                # Visualizations & charts
+│-- notebooks/             # Jupyter Notebooks for analysis
+│-- reports/               # Summary reports & insights
+│-- README.md              # Project documentation
+```
 
-## 📈 Visualizations
-### Sales Trends Over Time by Customer Lifestage
-![Sales Trends](images/Sales-Trends-Over-Time-by-Customer-Lifestage.png)
-
-### Average Transaction Value by Customer Type
-![Average Transaction Value](images/Average-Transaction-Value-by-Customer-Type.png)
-
-### Sales Distribution: Premium vs Non-Premium Customers
-![Sales Distribution](images/Sales-Distribution-Premium-vs-Non-Premium.png)
-
-### Customer Segmentation Analysis
+## 📷 Visualizations
+### **1️⃣ Customer Segmentation Analysis**
 ![Customer Segmentation](images/Customer-Segmentation-Analysis.png)
 
-## 🛠 How to Run the Project
+### **2️⃣ Average Transaction Value by Customer Type**
+![Average Transaction Value](images/Average-Transaction-Value-by-Customer-Type.png)
+
+### **3️⃣ Sales Trends Over Time by Customer Lifestage**
+![Sales Trends](images/Sales-Trends-Over-Time-by-Customer-Lifestage.png)
+
+## 🔧 Technologies Used
+- **Python** 🐍 (Pandas, Matplotlib, Seaborn)
+- **Jupyter Notebooks** 📓
+- **Git & GitHub** 🔄
+- **Power BI & Excel** 📊
+
+## 📌 How to Run
 1. Clone the repository:
-   ```bash
+   ```sh
    git clone https://github.com/Shrungal-DSAI/Quantium-Data-Analytics-Simulation.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd Quantium-Data-Analytics-Simulation
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
    ```
-3. Install required libraries (if applicable):
-   ```bash
-   pip install pandas matplotlib seaborn
+3. Open Jupyter Notebook:
+   ```sh
+   jupyter notebook
    ```
-4. Run the analysis script:
-   ```bash
-   python analysis.py
-   ```
+4. Run the analysis from the notebooks folder.
 
-## 📜 Conclusion
-The project provides insights into customer purchasing behavior, enabling data-driven decisions for marketing and sales strategies. Future improvements include integrating machine learning for predictive analysis.
+## 📢 Contributing
+Feel free to fork this repo, create a new branch, and submit a pull request with improvements! 💡
 
-🔗 ## Author
-**Shrungal Kulkarni**  
-📧 Email: [shrungalkulkarni30@gmail.com](mailto:shrungalkulkarni30@gmail.com)  
-🔗 GitHub: [@Shrungal-DSAI](https://github.com/Shrungal-DSAI)  
+## 🎯 Future Improvements
+✅ Implement predictive modeling for customer churn.  
+✅ Enhance visual storytelling using interactive dashboards.  
+✅ Automate data cleaning with scripts.
+
+💡 **Got suggestions?** Drop an issue or PR!
 
 ---
-**🚀 Let's optimize sales performance with data-driven insights!**
+
+📌 **Author:** [Shrungal](https://github.com/Shrungal-DSAI)  
+📅 **Last Updated:** March 2025
